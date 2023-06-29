@@ -1,0 +1,115 @@
+.wishlist-container {
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(13, 17, 248);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 2));
+ }
+
+.wishlist-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.wishlist-items {  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  gap: 20px;
+}
+
+.wishlist-item {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+
+.wishlist-image {
+  flex-shrink: 0;
+  margin-right: 40px;
+  margin-left: auto;
+  max-width: 100px;
+}
+
+.wishlist-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.wishlist-info {    
+  flex-grow: 1;
+}
+
+.wishlist-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.wishlist-name:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.wishlist-stock-true {
+  margin-bottom: 6px;
+  color: black;
+}
+
+.wishlist-stock-false {
+  margin-bottom: 6px;
+  color: red;
+}
+
+.wishlist-description {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.wishlist-price {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+.share-wishlist {
+  position: absolute;
+  background: none;
+  color: #fff;
+  background-color: rgb(50, 146, 50);
+  border: none;
+  border-radius: 8px;
+  padding: 2px 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+  top: 20px;
+  right: 10px;
+}
+
+
+
+.wishlist-add-to-cart {
+  padding: 8px 16px;
+  color: #fff;
+  background-color: rgb(5, 155, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 100px;
+}
+
+.wishlist-add-to-cart:hover {
+  background-color: #0056b3;
+}

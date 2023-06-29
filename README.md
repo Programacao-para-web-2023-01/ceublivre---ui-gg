@@ -1,59 +1,34 @@
-# CeubLivre UI
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-### Página de Login/Registro:
+## Getting Started
 
-* Formulário de login: entrada para e-mail e senha
-* Botão de "Esqueci minha senha": para iniciar o processo de redefinição de senha
-* Link para página de registro: para usuários novos criarem uma conta
-* Formulário de registro: entrada para nome, e-mail, senha e confirmação de senha
-* Botão de registro: para enviar o formulário de registro
-* Botões de login com provedores externos: para integrar com serviços como Google, Facebook, etc.
+First, run the development server:
 
-### Página Principal:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-* Barra de navegação: com links para as diferentes seções do marketplace (produtos, carrinho, perfil do usuário, etc.)
-* Caixa de pesquisa: para os usuários procurarem produtos por nome, categoria, etc.
-* Destaque dos produtos mais populares, mais vendidos ou em promoção
-* Lista de categorias de produtos
-* Lista de produtos mais recentes
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Página de Produtos:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-* Lista de produtos com imagem, nome, preço e botão de adicionar ao carrinho
-* Barra de filtros: para refinar a busca por categoria, preço, etc.
-* Opções de ordenação: para classificar os produtos por preço, popularidade, etc.
-* Botão de "ver mais detalhes": para acessar a página do produto com informações adicionais e opções de variações
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-### Página do Produto:
+## Learn More
 
-* Imagem do produto
-* Nome e descrição do produto
-* Preço do produto
-* Variações do produto (tamanho, cor, etc.)
-* Botão de adicionar ao carrinho
-* Comentários e avaliações do produto
+To learn more about Next.js, take a look at the following resources:
 
-### Página do Carrinho:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-* Lista de produtos no carrinho com imagem, nome, preço e quantidade selecionada
-* Botões de remover ou atualizar quantidade dos produtos
-* Total do carrinho
-* Botão de finalizar compra
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-### Página de Checkout:
+## Deploy on Vercel
 
-* Formulário de informações de entrega e pagamento
-* Opções de pagamento: cartão de crédito, PayPal, etc.
-* Total da compra
-* Botão de confirmar compra
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### Página de Pedidos:
-
-* Lista de todos os pedidos realizados pelo usuário com informações de entrega, produtos e status de entrega
-* Botão para rastrear a entrega do pedido
-
-### Página de Perfil do Usuário:
-
-* Informações pessoais do usuário
-* Histórico de pedidos
-* Configurações da conta: alterar senha, informações pessoais, etc.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
