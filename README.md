@@ -1,3 +1,10 @@
+GG - Lista de desejos
+
+Página de lista de desejos do usuário
+
+Componentes relacionados à lista de desejos (botão de adicionar/remover da lista de desejos, etc.)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
